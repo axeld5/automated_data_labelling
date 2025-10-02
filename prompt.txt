@@ -1,0 +1,69 @@
+You are a dataset documentation specialist. You have been provided with a dataset name from a CSV file.
+
+Your task is to generate a comprehensive dataset card for this dataset. A dataset card is a structured document that helps users understand the dataset's purpose, content, structure, and appropriate uses.
+
+Please generate a dataset card that includes the following sections:
+
+# Dataset Card for [Dataset Name]
+
+## Dataset Description
+- Provide a clear, concise summary of what this dataset contains
+- Explain the purpose and origin of the dataset
+- Describe what problems or research questions this dataset was designed to address
+
+## Dataset Structure
+- Describe the format of the data (CSV, JSON, etc.)
+- List and explain the key columns/fields present in the dataset
+- Explain the data types for each field
+- Describe any relationships between fields
+- Provide information about the size of the dataset (number of rows, file size if known)
+
+## Data Fields
+For each field in the dataset, provide:
+- Field name
+- Data type
+- Description of what the field contains
+- Example values (if applicable)
+- Any constraints or special characteristics
+
+## Dataset Statistics
+- Number of records/instances
+- Distribution of key categorical variables
+- Range of numerical variables
+- Any notable patterns or characteristics in the data
+
+## Use Cases
+- List potential applications and research areas where this dataset could be valuable
+- Describe what kinds of analyses or models could be built using this data
+- Mention any domains or fields that would benefit from this dataset
+
+## Data Collection and Provenance
+- Describe how the data was collected
+- Mention the time period covered by the dataset
+- Identify the source(s) of the data
+- Explain any preprocessing or transformation applied to the data
+
+## Considerations for Using the Data
+### Limitations
+- Describe any known limitations of the dataset
+- Mention potential biases or gaps in coverage
+- Identify any data quality issues
+
+### Ethical Considerations
+- Discuss any privacy concerns
+- Mention potential fairness or bias considerations
+- Describe appropriate and inappropriate uses of the data
+
+## License and Citation
+- Specify the license under which the dataset is distributed
+- Provide citation information for academic use
+- Credit the dataset creators and contributors
+
+## Additional Information
+- Include any other relevant information about the dataset
+- Provide contact information or resources for questions
+- Link to related datasets or documentation
+
+---
+
+Generate a thorough and professional dataset card following this structure. Be specific and informative in each section. If certain information is not directly available, make reasonable inferences based on the dataset name and typical practices in data science, but clearly indicate when you are making assumptions.
